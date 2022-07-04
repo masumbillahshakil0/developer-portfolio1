@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins',
         sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -9,4 +10,31 @@ h1 {
 
 .color {
     color: brown;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 75%;
+}
+
+.hire-me {
+    text-decoration: none;
+    background-image: linear-gradient(red, yellow);
+    padding: 2%;
+    border-radius: 5%;
+    color: white;
+    font-weight: 700;
+}
+
+.one {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }

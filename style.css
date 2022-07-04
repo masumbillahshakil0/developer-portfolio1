@@ -12,7 +12,7 @@ h1 {
     color: brown;
 }
 
-section {
+.flex-area {
     display: flex;
 }
 
@@ -44,4 +44,34 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.orange {
+    color: brown;
+}
+
+.ex-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.ex-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+#web-dev {
+    border-left: 7px solid orangered;
+}
+
+#baby-dev {
+    border-left: 7px solid blue
+}
+
+footer p {
+    text-align: center;
 }
